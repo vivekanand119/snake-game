@@ -4,7 +4,7 @@ const ctx = canvas.getContext('2d');
 // Game constants
 const gridSize = 20;
 const tileCount = canvas.width / gridSize;
-const REWARD_MILESTONE = 10;
+const REWARD_MILESTONE = 5;
 let gameSpeed = 10; // FPS equivalent
 
 // Game state
